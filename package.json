@@ -1,0 +1,22 @@
+{
+  "name": "poi-battle-clone-lib",
+  "version": "0.0.1",
+  "description": "Poi's Pokemon Battling Clone Library",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && jasmine"
+  },
+  "author": "Thomas Gipson (PoiPKMN)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^5.1.4",
+    "jasmine": "^5.1.0",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.17.0",
+    "guid-ts": "^1.1.2",
+    "lodash": "^4.17.21"
+  }
+}
